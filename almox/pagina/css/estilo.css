@@ -1,0 +1,112 @@
+body { 
+    background-attachment: fixed;
+    background-size: 1116px 500px;
+  /*  background-size: 1450px 650px;*/
+}
+
+/* Para que o rodapé fique sempre em baixo do conteúdo da página */
+.body2 { 
+    margin: 0 0 60px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.rodape {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:dimgray;
+    text-align: center;
+}
+
+a{
+	color:Black;
+	text-decoration:none;
+}
+
+a:hover{	
+	color: #ff8000;
+}
+
+h1{
+	font-size:x-large;
+	font-style: italic;
+	color: #111111;
+}
+
+h2{
+	font-size:large;
+	color:blue;
+}
+
+h3{
+    font-size:large;	
+    color:red;
+}
+
+p{
+	font-family: Times;
+	font-size:14pt;
+	text-indent: 0.5in;
+}
+
+label{
+	display: block;
+}
+
+table.comBordaSimples {
+    border-collapse: collapse;
+    text-align: center;
+    background: #FFFFF0;
+}
+ 
+table.comBordaSimples td {
+    border: 1px solid black;
+}
+ 
+table.comBordaSimples th {
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+
+figcaption {
+  font-size:20pt;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size:12pt;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    background: #333;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

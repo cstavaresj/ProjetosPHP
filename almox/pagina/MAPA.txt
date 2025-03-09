@@ -1,0 +1,53 @@
+index.php -> Página inicial do site para login, cadastro ou recuperação de senha do usuário.
+
+conexao.php -> Código que faz a conexão com o banco de dados.
+
+valida_campos.php -> Verifica se todos os campos da página foram preenchidos.
+
+mensagens.php -> Código com todas as mensagens de sucesso e erro.
+
+perdipassword.php -> Formulário para o usuário que esqueceu sua senha, responsável por enviar um link único ao usuário para que ele cadastrar uma nova senha.
+
+recuperar.php -> Página que o usuário abre com o link único recebido por email para cadastrar uma nova senha.
+
+alterarsenha.php -> Código que atualiza a senha do usuário no banco de dados.
+
+addusuario.php -> Formulário para cadastrar um novo usuário ao banco de dados.
+
+login.php -> Código que verifica no banco de dados se o email e senha estão corretos e caso positivo, inicia uma sessão e rerediciona a página do site.
+
+valida_login.php -> Verifica se o usuário iniciou uma sessão válida com email e senha. Caso contrário, o usuário não consegue acessar o conteúdo do site.
+
+cabecalho.php -> Alguns códigos que se repetem em várias páginas, para não ficar copiando e colando em todas basta usar o include:cabecalho.php;
+
+email.php -> Código que coloca o nome do usuário no Olá (Olá, "Usuário"), o email no canto superior direito da tela, e também o rodapé das páginas.
+
+site.php -> Código que divide as páginas em dois frames, um menu e outro com o conteúdo de cada página.
+
+Menu.php -> Menu com as opções do site.
+
+inicio.php -> Página inicial após o usuário efetuar login.
+
+cadastro.php -> Formulário para cadastrar um novo produto ao banco de dados.
+
+addproduto.php -> Página que aparece após o cadastro de um produto, perguntado para o usuário se ele deseja realizar um novo cadastro ou consulta.
+
+consulta.php -> Formulário para consultar todos os produto do banco de dados.
+
+editar.php -> Página para alterar os dados de um produto.
+
+editarproduto.php -> Código que atualiza o banco de dados com os novos dados do produto.
+
+apagar.php -> Código que apaga o produto do banco de dados.
+
+areadousuario.php -> Página onde é possível alterar os dados ou excluir a conta do usuário.
+
+editardados.php -> Página para alterar os dados do usuário.
+
+editarusuario.php -> Código que atualiza o banco de dados com os novos dados do usuário.
+
+apagarusuario.php -> Código que apaga do banco de dados a conta do usuário.
+
+sobre.php -> Página com os créditos do projeto.
+
+logout.php -> Código que encerra a sessão e volta para a tela de login.
