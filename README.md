@@ -48,5 +48,3 @@ O repositório contém uma pasta chamada `almox`. Dentro dela, estão os arquivo
 1. Clique no botão verde "Code" no topo da página do GitHub.
 2. Selecione "Download ZIP" e extraia o arquivo no seu computador.
 3. Ou use o Git: `git clone https://github.com/cstavaresj/ProjetosPHP.git`
-
----
